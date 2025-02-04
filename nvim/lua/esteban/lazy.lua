@@ -13,7 +13,7 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("esteban.plugins", {
+require("lazy").setup({ { import = "esteban.plugins" }, { import = "esteban.plugins.lsp"} }, {
   checker = {
     enable = true,
     notify = false,

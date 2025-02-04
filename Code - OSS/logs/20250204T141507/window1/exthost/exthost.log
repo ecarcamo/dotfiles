@@ -1,0 +1,7 @@
+2025-02-04 14:15:08.176 [info] Extension host with pid 41224 started
+2025-02-04 14:15:08.176 [info] Skipping acquiring lock for /home/escu/.config/Code - OSS/User/workspaceStorage/c3f5c2247faa2a0874fdc501bf586d64.
+2025-02-04 14:15:08.278 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-04 14:15:08.288 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-04 14:15:08.295 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-04 14:15:08.376 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-04 14:15:08.377 [info] Extension host with pid 41224 exiting with code 0
