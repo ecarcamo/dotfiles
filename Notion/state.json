@@ -1,0 +1,107 @@
+{
+	"history": {
+		"lastFocusedWindowDisplayState": {
+			"normalBounds": {
+				"x": 15,
+				"y": 63,
+				"width": 1890,
+				"height": 1122
+			},
+			"displayBounds": [
+				{
+					"x": 0,
+					"y": 0,
+					"width": 1920,
+					"height": 1200
+				}
+			],
+			"isFullScreen": false,
+			"isHtmlFullScreen": false,
+			"isMaximized": false
+		},
+		"appRestorationState": [
+			{
+				"windowId": "3273d1c4-ab87-4e1e-b3ed-fe40374d89d2",
+				"focusOrder": 3,
+				"displayState": {
+					"normalBounds": {
+						"x": 15,
+						"y": 63,
+						"width": 1890,
+						"height": 1122
+					},
+					"displayBounds": [
+						{
+							"x": 0,
+							"y": 0,
+							"width": 1920,
+							"height": 1200
+						}
+					],
+					"isFullScreen": false,
+					"isHtmlFullScreen": false,
+					"isMaximized": false
+				},
+				"tabs": [
+					{
+						"tabId": "3244e3b4-b76d-42b7-8f9b-174fa15a66e4",
+						"url": "https://www.notion.so/",
+						"index": 0,
+						"isActive": true
+					}
+				]
+			}
+		]
+	},
+	"appState": {
+		"zoomFactor": 1,
+		"theme": {
+			"mode": "dark",
+			"usingSystemTheme": true,
+			"colors": {
+				"white": "white",
+				"blue": "#2383E2"
+			},
+			"borderRadius": 4,
+			"textColor": "rgba(255, 255, 255, 0.81)",
+			"popoverBackgroundColor": "rgba(37, 37, 37, 1)",
+			"popoverBoxShadow": "\n\t\t\t\t\t 0 0 0 1px rgba(15,15,15,.1),\n\t\t\t\t\t 0 3px 6px rgba(15,15,15,.2),\n\t\t\t\t\t 0 9px 24px rgba(15,15,15,.4)\n\t\t\t\t",
+			"inputBoxShadow": "rgba(255, 255, 255, 0.075) 0 0 0 1px inset",
+			"inputBackgroundColor": "rgba(255, 255, 255, 0.055)",
+			"dividerColor": "rgba(255, 255, 255, 0.13)",
+			"shadowOpacity": 0.2
+		},
+		"preferences": {
+			"isAutoUpdaterDisabled": false,
+			"isAutoUpdaterOSSupportBypass": false,
+			"isClosingBrowserTabs": false,
+			"isHardwareAccelerationDisabled": false,
+			"isHideLastWindowOnCloseEnabled": true,
+			"isMenuBarIconEnabled": true,
+			"isNavigationHistoryEnabled": true,
+			"isNewTabSearchEnabled": true,
+			"isOpenAtLoginEnabled": false,
+			"isPinnedTabNewTabEnabled": true,
+			"isQuickSearchEnabled": true,
+			"isTabDragIntoWindowEnabled": true,
+			"isTabPreviewEnabled": true,
+			"isUniversalLinksEnabled": true,
+			"isUsingHttps": true,
+			"isVibrancyEnabled": null,
+			"notionAiShortcut": "shift+ctrl+j",
+			"onStartup": "continue",
+			"quickSearchShortcut": "Shift+CommandOrControl+K",
+			"updaterChannel": null,
+			"ignoreLogMessages": [
+				"Electron Security Warning",
+				"chrome-extension://"
+			],
+			"sqliteConnectionType": "message-ports",
+			"disabledExtensions": [
+				"React Developer Tools"
+			]
+		},
+		"notificationCount": 0,
+		"isTabBarContextMenuOpen": false
+	}
+}

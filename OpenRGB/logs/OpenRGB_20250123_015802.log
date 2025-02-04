@@ -1,0 +1,101 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250123_015802
+====================================================================================================
+
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Start device detection               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Initializing HID interfaces: Success
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |             Detecting I2C interfaces               |
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:28E1 Subsystem: 1043:20AD
+1008  |Info:    Registering I2C interface: /dev/i2c-10 Device 8086:A788 Subsystem: 1043:20AD
+1008  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:28E1 Subsystem: 1043:20AD
+1008  |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-8 Device 8086:A788 Subsystem: 1043:20AD
+1009  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1009  |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:A788 Subsystem: 1043:20AD
+1009  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1009  |Info:    Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:A788 Subsystem: 1043:20AD
+1010  |Info:    Registering I2C interface: /dev/i2c-11 Device 8086:A788 Subsystem: 1043:20AD
+1010  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:28E1 Subsystem: 1043:20AD
+1010  |Info:    Registering I2C interface: /dev/i2c-ASUF1416:00 Device 0000:0000 Subsystem: 0000:0000
+1010  |Info:    Registering I2C interface: /dev/i2c-9 Device 8086:A788 Subsystem: 1043:20AD
+1010  |Info:    Registering I2C interface: /dev/i2c-16 Device 8086:7A23 Subsystem: 1043:14D3
+1010  |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:A788 Subsystem: 1043:20AD
+1010  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1010  |Info:    Registering I2C interface: /dev/i2c-14 Device 0000:0000 Subsystem: 0000:0000
+1010  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:A788 Subsystem: 1043:20AD
+1010  |Info:    Registering I2C interface: /dev/i2c-12 Device 8086:A788 Subsystem: 1043:20AD
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Detecting I2C devices                |
+1010  |Info:    ------------------------------------------------------
+4395  |Info:    ------------------------------------------------------
+4395  |Info:    |               Detecting I2C PCI devices            |
+4395  |Info:    ------------------------------------------------------
+4398  |Info:    ------------------------------------------------------
+4398  |Info:    |               Detecting HID devices                |
+4398  |Info:    ------------------------------------------------------
+4400  |Info:    [Asus Aura Core Laptop] Registering RGB controller
+4400  |Info:    ------------------------------------------------------
+4400  |Info:    |            Detecting libusb HID devices            |
+4400  |Info:    ------------------------------------------------------
+4409  |Info:    ------------------------------------------------------
+4409  |Info:    |              Detecting other devices               |
+4409  |Info:    ------------------------------------------------------
+4412  |Info:    ------------------------------------------------------
+4412  |Info:    |                Detection completed                 |
+4412  |Info:    ------------------------------------------------------
+4412  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+32585 |Info:    ------------------------------------------------------
+32585 |Info:    |               Start device detection               |
+32585 |Info:    ------------------------------------------------------
+32585 |Info:    Initializing HID interfaces: Success
+32587 |Info:    ------------------------------------------------------
+32587 |Info:    |             Detecting I2C interfaces               |
+32587 |Info:    ------------------------------------------------------
+32587 |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:28E1 Subsystem: 1043:20AD
+32587 |Info:    Registering I2C interface: /dev/i2c-10 Device 8086:A788 Subsystem: 1043:20AD
+32587 |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:28E1 Subsystem: 1043:20AD
+32588 |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+32588 |Info:    Registering I2C interface: /dev/i2c-8 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+32588 |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+32588 |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+32588 |Info:    Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+32588 |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Info:    Registering I2C interface: /dev/i2c-11 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:28E1 Subsystem: 1043:20AD
+32588 |Info:    Registering I2C interface: /dev/i2c-ASUF1416:00 Device 0000:0000 Subsystem: 0000:0000
+32588 |Info:    Registering I2C interface: /dev/i2c-9 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Info:    Registering I2C interface: /dev/i2c-16 Device 8086:7A23 Subsystem: 1043:14D3
+32588 |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+32588 |Info:    Registering I2C interface: /dev/i2c-14 Device 0000:0000 Subsystem: 0000:0000
+32588 |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Info:    Registering I2C interface: /dev/i2c-12 Device 8086:A788 Subsystem: 1043:20AD
+32588 |Info:    ------------------------------------------------------
+32588 |Info:    |               Detecting I2C devices                |
+32588 |Info:    ------------------------------------------------------
+37235 |Info:    ------------------------------------------------------
+37235 |Info:    |               Detecting I2C PCI devices            |
+37235 |Info:    ------------------------------------------------------
+37237 |Info:    ------------------------------------------------------
+37237 |Info:    |               Detecting HID devices                |
+37237 |Info:    ------------------------------------------------------
+37266 |Info:    [Asus Aura Core Laptop] Registering RGB controller
+37266 |Info:    ------------------------------------------------------
+37266 |Info:    |            Detecting libusb HID devices            |
+37266 |Info:    ------------------------------------------------------
+37271 |Info:    ------------------------------------------------------
+37271 |Info:    |              Detecting other devices               |
+37271 |Info:    ------------------------------------------------------
+37272 |Info:    ------------------------------------------------------
+37272 |Info:    |                Detection completed                 |
+37272 |Info:    ------------------------------------------------------
+37272 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>

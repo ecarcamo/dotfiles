@@ -1,0 +1,34 @@
+
+
+# Archivos de caché y temporales
+*.swp
+*.bak
+*.lock
+*.cache/
+notion-calendar-electron/
+google-chrome/
+discord/
+cfg_backups/
+Electron/
+session/
+spotify/
+yay/
+
+
+# Archivos privados
+ssh/
+gnupg/
+pavucontrol.ini
+
+# Caché y datos temporales
+# Configuraciones específicas del sistema
+kdeglobals
+kde.org/
+mimeapps.list
+pavucontrol.ini
+
+# Enlaces simbólicos (pueden romperse)
+backgrounds/
+wofi/
+starship.toml
+

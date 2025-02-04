@@ -1,0 +1,256 @@
+[2025-01-16 17:26:28.935] [info]  Setting open at login to true
+[2025-01-16 17:26:29.107] [info]  App starting with version 4.3.0 (7d8648d) { system: 'linux x64', electron: '33.3.1' }
+[2025-01-16 17:26:29.223] [info]                 App is visible: true
+[2025-01-16 17:27:09.307] [info]                         App is visible: false
+[2025-01-16 17:27:09.316] [error]                        Error loading initial URL: https://www.notion.so Error: ERR_NAME_NOT_RESOLVED (-105) loading 'https://www.notion.so/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:80969)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:81131)
+    at WebContents.emit (node:events:518:28)
+    at WebContents.emit (node:domain:489:12)
+    at r.emit (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:508142)
+[2025-01-16 17:27:09.340] [error]                        Error loading initial URL: https://www.notion.so/blank Error: ERR_NAME_NOT_RESOLVED (-105) loading 'https://www.notion.so/blank'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:80969)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:81131)
+    at WebContents.emit (node:events:518:28)
+    at WebContents.emit (node:domain:489:12)
+    at r.emit (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:508142)
+[2025-01-16 17:27:09.343] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  environment: 'production',
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'Error',
+    message: "ERR_NAME_NOT_RESOLVED (-105) loading 'https://www.notion.so/blank'",
+    stack: "Error: ERR_NAME_NOT_RESOLVED (-105) loading 'https://www.notion.so/blank'\n" +
+      '    at rejectAndCleanup (node:electron/js2c/browser_init:2:80969)\n' +
+      '    at WebContents.finishListener (node:electron/js2c/browser_init:2:81131)\n' +
+      '    at WebContents.emit (node:events:518:28)\n' +
+      '    at WebContents.emit (node:domain:489:12)\n' +
+      '    at r.emit (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:508142)'
+  }
+}
+[2025-01-16 17:27:37.748] [info]                         Preventing closure for window with id 1, hiding
+[2025-01-16 17:27:51.398] [error]                        Error loading URL in loadFullUrl: https://www.notion.so/ Error: ERR_NAME_NOT_RESOLVED (-105) loading 'https://www.notion.so/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:80969)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:81131)
+    at WebContents.emit (node:events:518:28)
+    at WebContents.emit (node:domain:489:12)
+    at r.emit (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:508142)
+[2025-01-16 17:27:51.408] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  environment: 'production',
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'Error',
+    message: "ERR_NAME_NOT_RESOLVED (-105) loading 'https://www.notion.so/'",
+    stack: "Error: ERR_NAME_NOT_RESOLVED (-105) loading 'https://www.notion.so/'\n" +
+      '    at rejectAndCleanup (node:electron/js2c/browser_init:2:80969)\n' +
+      '    at WebContents.finishListener (node:electron/js2c/browser_init:2:81131)\n' +
+      '    at WebContents.emit (node:events:518:28)\n' +
+      '    at WebContents.emit (node:domain:489:12)\n' +
+      '    at r.emit (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:508142)'
+  }
+}
+[2025-01-16 17:29:31.398] [info]                         Quitting...
+[2025-01-17 02:53:38.588] [info]  Setting open at login to true
+[2025-01-17 02:53:38.683] [info]  App starting with version 4.3.0 (7d8648d) { system: 'linux x64', electron: '33.3.1' }
+[2025-01-17 02:53:38.796] [info]                 App is visible: true
+[2025-01-17 02:54:01.685] [info]                         Preventing closure for window with id 1, hiding
+[2025-01-17 02:55:49.346] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'cc959ef6-97b7-46f9-a795-d5a1144682ef',
+    version: '23.13.0.1529',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.3.0 Chrome/130.0.6723.170 Electron/33.3.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 4011,
+    storageQuotaEstimate: 581061496747,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.9-arch1-1',
+    desktopElectronVersion: '33.3.1',
+    desktopChromiumVersion: '130.0.6723.170',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '4.3.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: '{"exception":{},"path":"/_assets/experimental/56000-4939738ced0f808e.js"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-01-17 02:55:49.846] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'cc959ef6-97b7-46f9-a795-d5a1144682ef',
+    version: '23.13.0.1529',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.3.0 Chrome/130.0.6723.170 Electron/33.3.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 4011,
+    storageQuotaEstimate: 581061496747,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.9-arch1-1',
+    desktopElectronVersion: '33.3.1',
+    desktopChromiumVersion: '130.0.6723.170',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '4.3.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: '{"exception":{},"path":"/_assets/experimental/images/icons/todo.ed420552.png"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-01-17 02:55:52.925] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'cc959ef6-97b7-46f9-a795-d5a1144682ef',
+    version: '23.13.0.1529',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.3.0 Chrome/130.0.6723.170 Electron/33.3.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 4011,
+    storageQuotaEstimate: 581061496747,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.9-arch1-1',
+    desktopElectronVersion: '33.3.1',
+    desktopChromiumVersion: '130.0.6723.170',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '4.3.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerMajorVersion: 7, serviceWorkerMinorVersion: 0 },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2025-01-17 02:55:53.425] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'cc959ef6-97b7-46f9-a795-d5a1144682ef',
+    version: '23.13.0.1529',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.3.0 Chrome/130.0.6723.170 Electron/33.3.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 4011,
+    storageQuotaEstimate: 581061496747,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.9-arch1-1',
+    desktopElectronVersion: '33.3.1',
+    desktopChromiumVersion: '130.0.6723.170',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '4.3.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerMajorVersion: 7, serviceWorkerMinorVersion: 0 },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerActivate'
+}
+[2025-01-17 02:56:53.959] [info]                         Quitting...
+[2025-01-29 15:26:06.374] [info]  ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  environment: 'production',
+  data: { invalidUrls: [ 'https://www.notion.so/?pvs=3' ] },
+  level: 'warning',
+  from: 'historySelector.appRestorationStateSelector',
+  type: 'FilteredInvalidTabs'
+}
+[2025-01-29 15:26:06.489] [info]  App starting with version 4.3.0 (7d8648d) { system: 'linux x64', electron: '33.3.1' }
+[2025-01-29 15:26:06.600] [info]                 App is visible: true
+[2025-01-29 15:26:07.193] [info]                         App is visible: false
+[2025-01-29 15:26:13.006] [info]                         Preventing closure for window with id 1, hiding
+[2025-01-29 15:26:16.749] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.3.0',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i9-13980HX',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '19f6bdaf-5ebe-442c-b7a3-e14d20cd2edb',
+    version: '23.13.0.1529',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.3.0 Chrome/130.0.6723.170 Electron/33.3.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: true,
+    experiments: {},
+    storageUsageEstimate: 252999432,
+    storageQuotaEstimate: 576230594312,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.10-arch1-1',
+    desktopElectronVersion: '33.3.1',
+    desktopChromiumVersion: '130.0.6723.170',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '4.3.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/print.e2ba4c31.css'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-01-29 15:26:16.885] [info]                         Quitting...
+[2025-01-29 15:26:16.894] [info]                         Window with id 1 closed

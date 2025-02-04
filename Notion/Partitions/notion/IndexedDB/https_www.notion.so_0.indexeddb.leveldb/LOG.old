@@ -1,0 +1,38 @@
+2025/01/17-02:53:47.085 23a9 Creating DB /home/escu/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2025/01/17-02:53:47.089 23a9 Reusing MANIFEST /home/escu/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/17-02:53:48.412 23a9 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/17-02:53:48.414 23a9 Level-0 table #5: started
+2025/01/17-02:53:48.416 23a9 Level-0 table #5: 2903 bytes OK
+2025/01/17-02:53:48.418 23a9 Delete type=0 #3
+2025/01/17-02:53:48.419 23a9 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/17-02:53:50.706 23a9 Level-0 table #7: started
+2025/01/17-02:53:50.708 23a9 Level-0 table #7: 545 bytes OK
+2025/01/17-02:53:50.710 23a9 Delete type=0 #4
+2025/01/17-02:53:50.710 23a9 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/17-02:55:53.771 23aa Level-0 table #9: started
+2025/01/17-02:55:53.773 23aa Level-0 table #9: 544 bytes OK
+2025/01/17-02:55:53.777 23aa Delete type=0 #6
+2025/01/17-02:55:53.777 23c1 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 238 : 1
+2025/01/17-02:55:53.777 23c1 Compacting 1@0 + 1@1 files
+2025/01/17-02:55:53.779 23c1 Generated table #10@0: 13 keys, 520 bytes
+2025/01/17-02:55:53.779 23c1 Compacted 1@0 + 1@1 files => 520 bytes
+2025/01/17-02:55:53.780 23c1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/17-02:55:53.781 23c1 Delete type=2 #9
+2025/01/17-02:55:53.781 23aa Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 238 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/17-02:55:53.911 23c3 Level-0 table #12: started
+2025/01/17-02:55:53.914 23c3 Level-0 table #12: 542 bytes OK
+2025/01/17-02:55:53.915 23c2 Current memtable full; waiting...
+2025/01/17-02:55:53.916 23c3 Delete type=0 #8
+2025/01/17-02:55:53.917 23c3 Delete type=2 #7
+2025/01/17-02:55:53.917 23a9 Level-0 table #14: started
+2025/01/17-02:55:53.918 23a9 Level-0 table #14: 503 bytes OK
+2025/01/17-02:55:53.920 23a9 Delete type=0 #11
+2025/01/17-02:55:53.920 23a9 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 255 : 1
+2025/01/17-02:55:53.920 23a9 Compacting 2@0 + 1@1 files
+2025/01/17-02:55:53.922 23a9 Generated table #15@0: 21 keys, 623 bytes
+2025/01/17-02:55:53.922 23a9 Compacted 2@0 + 1@1 files => 623 bytes
+2025/01/17-02:55:53.924 23a9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/17-02:55:53.924 23a9 Delete type=2 #12
+2025/01/17-02:55:53.924 23a9 Delete type=2 #14
+2025/01/17-02:55:53.924 23a9 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/17-02:55:53.924 23a9 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 255 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

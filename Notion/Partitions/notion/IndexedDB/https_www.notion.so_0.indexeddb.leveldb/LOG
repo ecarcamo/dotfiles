@@ -1,0 +1,25 @@
+2025/01/29-15:26:06.980 21a0 Reusing MANIFEST /home/escu/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/29-15:26:06.980 21a0 Recovering log #13
+2025/01/29-15:26:06.980 21a0 Reusing old log /home/escu/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000013.log 
+2025/01/29-15:26:06.980 21a0 Delete type=2 #10
+2025/01/29-15:26:07.705 21b8 Level-0 table #18: started
+2025/01/29-15:26:07.707 21b8 Level-0 table #18: 559 bytes OK
+2025/01/29-15:26:07.711 21b8 Delete type=0 #13
+2025/01/29-15:26:07.711 21b8 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 294 : 1
+2025/01/29-15:26:07.711 21b8 Compacting 1@0 + 1@1 files
+2025/01/29-15:26:07.715 21b8 Generated table #19@0: 25 keys, 645 bytes
+2025/01/29-15:26:07.715 21b8 Compacted 1@0 + 1@1 files => 645 bytes
+2025/01/29-15:26:07.717 21b8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/29-15:26:07.718 21b8 Delete type=2 #18
+2025/01/29-15:26:07.718 21b8 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 294 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/29-15:26:07.947 21a0 Level-0 table #21: started
+2025/01/29-15:26:07.949 21a0 Level-0 table #21: 540 bytes OK
+2025/01/29-15:26:07.951 21a0 Delete type=2 #15
+2025/01/29-15:26:07.951 21a0 Delete type=0 #17
+2025/01/29-15:26:07.951 21a0 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 311 : 1
+2025/01/29-15:26:07.951 21a0 Compacting 1@0 + 1@1 files
+2025/01/29-15:26:07.953 21a0 Generated table #22@0: 29 keys, 679 bytes
+2025/01/29-15:26:07.953 21a0 Compacted 1@0 + 1@1 files => 679 bytes
+2025/01/29-15:26:07.955 21a0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/29-15:26:07.955 21a0 Delete type=2 #21
+2025/01/29-15:26:07.955 21a0 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 311 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

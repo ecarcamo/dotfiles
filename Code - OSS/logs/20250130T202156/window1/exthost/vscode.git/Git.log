@@ -1,0 +1,28 @@
+2025-01-30 20:21:59.243 [info] [main] Log level: Info
+2025-01-30 20:21:59.243 [info] [main] Validating found git in: "git"
+2025-01-30 20:21:59.243 [info] [main] Using git "2.48.1" from "git"
+2025-01-30 20:21:59.243 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 20:21:59.243 [info] > git rev-parse --show-toplevel [17ms]
+2025-01-30 20:21:59.243 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-01-30 20:21:59.243 [info] [Model][openRepository] Opened repository: /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue
+2025-01-30 20:21:59.244 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-30 20:21:59.244 [info] > git config --get commit.template [4ms]
+2025-01-30 20:21:59.251 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-30 20:21:59.251 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 20:21:59.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-30 20:21:59.264 [info] > git status -z -uall [5ms]
+2025-01-30 20:21:59.265 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-30 20:21:59.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-30 20:21:59.284 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-01-30 20:21:59.290 [info] > git config --get commit.template [13ms]
+2025-01-30 20:21:59.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-01-30 20:21:59.308 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2025-01-30 20:21:59.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-01-30 20:21:59.321 [info] > git status -z -uall [4ms]
+2025-01-30 20:21:59.321 [info] > git diff --name-status -z --diff-filter=ADMR 02673d670481ef80376350a025b0d360e04fd7bd...refs/remotes/origin/main [9ms]
+2025-01-30 20:21:59.322 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-30 20:21:59.552 [info] > git show --textconv :game/notebook.md [8ms]
+2025-01-30 20:21:59.554 [info] > git ls-files --stage -- /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue/game/notebook.md [2ms]
+2025-01-30 20:21:59.562 [info] > git cat-file -s 52e2fab9fc0511544ee3e4f5525f421a206afb6e [3ms]
+2025-01-30 20:21:59.595 [info] > git blame --root --incremental 02673d670481ef80376350a025b0d360e04fd7bd -- /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue/game/notebook.md [16ms]
+2025-01-30 20:21:59.752 [info] > git check-ignore -v -z --stdin [1ms]

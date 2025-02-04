@@ -1,0 +1,35 @@
+2025-01-24 01:14:38.033 [info] [main] Log level: Info
+2025-01-24 01:14:38.033 [info] [main] Validating found git in: "git"
+2025-01-24 01:14:38.033 [info] [main] Using git "2.48.1" from "git"
+2025-01-24 01:14:38.033 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-24 01:14:38.033 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-24 01:14:38.033 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-01-24 01:14:38.033 [info] [Model][openRepository] Opened repository: /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue
+2025-01-24 01:14:38.075 [info] > git rev-parse --show-toplevel [33ms]
+2025-01-24 01:14:38.076 [info] > git config --get commit.template [37ms]
+2025-01-24 01:14:38.099 [info] > git rev-parse --show-toplevel [10ms]
+2025-01-24 01:14:38.100 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-24 01:14:38.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-24 01:14:38.121 [info] > git status -z -uall [9ms]
+2025-01-24 01:14:38.123 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-24 01:14:38.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-01-24 01:14:38.156 [info] > git config --get commit.template [9ms]
+2025-01-24 01:14:38.157 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-01-24 01:14:38.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-01-24 01:14:38.194 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2025-01-24 01:14:38.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2025-01-24 01:14:38.218 [info] > git diff --name-status -z --diff-filter=ADMR 02673d670481ef80376350a025b0d360e04fd7bd...refs/remotes/origin/main [17ms]
+2025-01-24 01:14:38.219 [info] > git status -z -uall [10ms]
+2025-01-24 01:14:38.220 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-24 01:14:38.364 [info] > git show --textconv :game/notebook.md [8ms]
+2025-01-24 01:14:38.365 [info] > git ls-files --stage -- /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue/game/notebook.md [2ms]
+2025-01-24 01:14:38.373 [info] > git cat-file -s 52e2fab9fc0511544ee3e4f5525f421a206afb6e [2ms]
+2025-01-24 01:14:38.394 [info] > git blame --root --incremental 02673d670481ef80376350a025b0d360e04fd7bd -- /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue/game/notebook.md [4ms]
+2025-01-24 01:14:38.578 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-24 01:14:47.708 [info] > git show --textconv :README.md [6ms]
+2025-01-24 01:14:47.709 [info] > git ls-files --stage -- /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue/README.md [1ms]
+2025-01-24 01:14:47.717 [info] > git cat-file -s 7649af1d7143eaa23877631dd81e5c9dba0f66eb [2ms]
+2025-01-24 01:14:47.730 [info] > git blame --root --incremental 02673d670481ef80376350a025b0d360e04fd7bd -- /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue/README.md [3ms]
+2025-01-24 01:14:56.962 [info] > git show --textconv :game/notebook.md [7ms]
+2025-01-24 01:14:56.963 [info] > git ls-files --stage -- /home/escu/Documentos/Universidad/5toSemestre/sistemas_web/command-line-clue/game/notebook.md [2ms]
+2025-01-24 01:14:56.971 [info] > git cat-file -s 52e2fab9fc0511544ee3e4f5525f421a206afb6e [2ms]

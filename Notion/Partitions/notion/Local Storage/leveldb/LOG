@@ -1,0 +1,7 @@
+2025/01/29-15:26:06.549 21a0 Reusing MANIFEST /home/escu/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2025/01/29-15:26:06.550 21a0 Recovering log #6
+2025/01/29-15:26:06.559 21a0 Level-0 table #9: started
+2025/01/29-15:26:06.569 21a0 Level-0 table #9: 554763 bytes OK
+2025/01/29-15:26:06.571 21a0 Delete type=0 #6
+2025/01/29-15:26:16.915 21b8 Level-0 table #12: started
+2025/01/29-15:26:16.924 21b8 Level-0 table #12: 564096 bytes OK
