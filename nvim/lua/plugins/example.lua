@@ -12,13 +12,6 @@ return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
 
-  {
-    "numToStr/Comment.nvim",
-    config = function()
-      require("Comment").setup()
-    end,
-  },
-
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
