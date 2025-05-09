@@ -24,35 +24,59 @@ Estas son las configuraciones principales incluidas en este repositorio:
 
 ---
 
-## 🔥 Instalación rápida en una computadora nueva
+## 🔥 Instalación automática en una computadora nueva
 
-Si estás reinstalando tu sistema o cambiando de máquina, puedes restaurar todo tu entorno con los siguientes pasos:
+He preparado un script llamado `install.sh` que automatiza todo el proceso:
+
+1. **Actualiza el sistema**.
+2. **Instala los paquetes necesarios**.
+3. **Clona y aplica los dotfiles usando `git bare`**.
+4. **Reasigna permisos y limpia conflictos si es necesario**.
+
+### 📥 Paso a paso
+
+Clona el repositorio y ejecuta el script:
+
+```bash
+git clone https://github.com/TU-USUARIO/dotfiles.git ~/dotfiles
+# Clona este repositorio en tu $HOME
+
+cd ~/dotfiles
+# Entra a la carpeta del repositorio
+
+chmod +x install.sh
+# Da permisos de ejecución al script
+
+./install.sh
+# Ejecuta el script de instalación automática
+```
+
+---
+
+## ⚙️ Instalación manual (opcional)
+
+Si prefieres hacer el proceso manualmente:
 
 ### 1. Clonar el repositorio de dotfiles en modo `--bare`
 
 ```bash
-git clone --bare <https://github.com/TU-USUARIO/dotfiles.git> $HOME/.dotfiles
 
+git clone --bare https://github.com/TU-USUARIO/dotfiles.git $HOME/.dotfiles
 # Clona el repositorio en modo bare para gestionar archivos directamente en tu $HOME
-
 ```
 
 ### 2. Crear alias para facilitar el uso de git
 
 ```bash
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
-
 # Crea un alias llamado 'dotfiles' que usa la carpeta oculta como repositorio
-
 ```
 
 ### 3. Restaurar los archivos de configuración
 
 ```bash
 dotfiles checkout
-
 # Hace checkout de todos los archivos del repositorio a tu $HOME
-
 ```
 
 ### 4. Evitar que git muestre archivos sin seguimiento
@@ -64,22 +88,9 @@ dotfiles config --local status.showUntrackedFiles no
 
 ---
 
-## ⚙️ Instalación de programas necesarios
-
-Estos dotfiles asumen que tienes instalados los siguientes paquetes:
-
-```bash
-
-sudo pacman -S --needed hyprland kitty waybar rofi neovim dunst swaylock swappy fastfetch htop lazygit qt5ct qt6ct neofetch
-# Instala todos los programas que usan estas configuraciones
-```
-
----
-
 ## 🛠️ Comandos útiles para mantener tus dotfiles
 
 ```bash
-
 git status                   # Ver cambios en las configuraciones
 git add <archivo>           # Agregar un archivo modificado a los dotfiles
 git commit -m "Mensaje"     # Confirmar los cambios con un mensaje
@@ -97,3 +108,5 @@ git push                    # Subir los cambios a GitHub
 - Mantén tu `.gitignore` limpio para no subir configuraciones de programas que no necesitas.
 
 ---
+
+¡Listo! Con estos pasos y tu `install.sh`, puedes clonar, restaurar y usar tu entorno Arch + Hyprland en cualquier máquina 💻🚀
